@@ -19,17 +19,32 @@
         <meta name="twitter:description" content="">
         <meta name="twitter:image:src" content="">
 
-        <title>Title</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Blob</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="styles/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=David+Libre" rel="stylesheet">
     </head>
     <body>
         <canvas class="canvas"></canvas>
-        <!-- <canvas class="noise-canvas"></canvas> -->
+        <canvas class="noise-canvas"></canvas>
+        <div class="content">
+            <h2>Blob Experiment</h2>
+            <p>Experiment by <a href="corentinfardeau.fr">Corentin Fardeau</a></p>
+            <a href="/" class="back">&larr; Go back to lab</a>
+        </div>
+        <div class="loader">
+            <div class="loader-content">            
+                <h1>Blob Experiment</h1>
+                <div class="spinner-container">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+            <p>Optimized for desktop 😁</p>
+        </div>
         <script type="text/javascript" src="<%= scriptURL %>scripts/vendors/dat.min.js"></script>
         <script src="<%= scriptURL %>scripts/app.js"></script>
     </body>

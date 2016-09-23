@@ -19,10 +19,10 @@
             "env" : "staging"
         },
         "live": {
-            "siteURL": "",
-            "baseURL": "/",
-            "scriptURL": "/",
-            "assetsURL": "/assets/",
+            "siteURL": "www.lab.corentinfardeau.fr",
+            "baseURL": "/blob/",
+            "scriptURL": "/blob/",
+            "assetsURL": "/blob/assets/",
             "env" : "live"
         }
     },
