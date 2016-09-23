@@ -1,5 +1,6 @@
 # Blob Experiment
-Little sketch where I play with Canvas.
+Little sketch where I play with canvas element.
+See it here : lab.corentinfardeau.fr/blob
 
-![alt tag](https://raw.githubusercontent.com/corentinfardeau/blob/master/blob.gif)
+![blob](https://github.com/Corentinfardeau/blob/blob/master/blob.gif)
 
